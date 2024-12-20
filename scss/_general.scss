@@ -1,0 +1,28 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    font-family: "Roboto", sans-serif;
+}
+.hidden{
+    display: none !important;
+}
+
+.list__active{
+    background: linear-gradient(0deg,rgba(0,102,255,0.15) 0%, #fafafa 50%);
+    background: -webkit-linear-gradient(0deg,rgba(0,102,255,0.15) 0%, #fafafa 50%);
+    background: -moz-linear-gradient(0deg,rgba(0,102,255,0.15) 0%, #fafafa 50%);
+    border-bottom: $color-primary-500;
+    div{
+        color: $color-primary-500;
+    }
+}
+
