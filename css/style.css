@@ -108,6 +108,7 @@ body {
   color: #002b6b;
   margin-top: 16px;
   margin-bottom: 16px;
+  font-weight: 400;
 }
 
 .hero__text-bottom {
@@ -153,7 +154,7 @@ body {
 .hero__button {
   background-color: #0066FF;
   color: white;
-  padding: 16px 32px;
+  padding: 16px 40px;
   border-radius: 100px;
   border: none;
 }
@@ -203,6 +204,8 @@ body {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 16px;
+  font-weight: 500;
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.33);
 }
 
 .discover__text {
@@ -303,6 +306,11 @@ body {
   background-color: #0066ff;
 }
 
+.discover__arrow {
+  border-radius: 50%;
+  right: 4px;
+}
+
 .choose {
   margin-bottom: 170px;
 }
@@ -375,6 +383,11 @@ body {
   flex-direction: column;
   gap: 22px;
 }
+.card__wrapper > div {
+  box-shadow: 10px 10px 36px -10px rgba(71, 105, 204, 0.3);
+  -webkit-box-shadow: 10px 10px 36px -10px rgba(71, 105, 204, 0.3);
+  -moz-box-shadow: 10px 10px 36px -10px rgba(71, 105, 204, 0.3);
+}
 
 .choose__card-content h4 {
   font-size: 20px;
@@ -387,10 +400,43 @@ body {
 }
 
 .choose__content {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 56px;
+}
+.choose__content div {
+  z-index: 3;
+}
+
+.choose__arrow-top {
+  position: absolute;
+  top: 10px;
+  right: 400px;
+}
+
+.choose__arrow-bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 400px;
+}
+
+.choose__circle-first {
+  position: absolute;
+  z-index: 0;
+}
+
+.choose__circle-second {
+  position: absolute;
+}
+
+.choose__circle-third {
+  position: absolute;
+}
+
+.choose__video {
+  z-index: 3;
 }
 
 .happy {
@@ -415,12 +461,20 @@ body {
 }
 
 .happy__wrapper {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(3deg, #fafafa 0%, #fafafa 80%);
-  background: -moz-linear-gradient(3deg, #fafafa 0%, #fafafa 80%);
+}
+
+.happy__gradient {
+  position: absolute;
+  bottom: 20px;
+  height: 167px;
+  width: 1440px;
+  background: linear-gradient(0deg, rgba(248, 248, 248, 0.75) 40%, rgba(248, 248, 248, 0) 60%);
+  background: -moz-linear-gradient(0deg, rgba(248, 248, 248, 0.75) 40%, rgba(248, 248, 248, 0) 60%);
 }
 
 .works__title {
