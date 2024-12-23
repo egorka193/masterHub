@@ -22,7 +22,7 @@
     border-radius: 20px;
     flex-wrap: wrap;
     gap: 15px;
-    div{
+    div:nth-child(1){
         display: flex;
         align-items: flex-start;
         justify-content: start;
@@ -49,6 +49,7 @@
 }
 .help__answer{
     display: none;
+    font-weight: 300;
 }
 
 .help__quest{
@@ -62,7 +63,7 @@
     -moz-box-shadow: 24px 29px 45px -16px rgba(0,0,0,0.23);
     background-color: $color-primary-50;
     border: 1px solid $color-primary-200;
-    div{
+    div:nth-child(1){
         background-color: white;
     }
     button{

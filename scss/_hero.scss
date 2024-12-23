@@ -48,16 +48,19 @@
     border: 1px solid #EDEDED;
     border-radius: 56px;
     display: flex;
-    padding: 12px 24px;
-    
+    padding: 4px 8px;
     div{
         display: flex;
         align-items: center;
         gap: 8px;
     }
+    input{
+        padding: 12px 24px;
+    }
 }
 
 .hero__button{
+    cursor: pointer;
     background-color: #0066FF;
     color: white;
     padding: 16px 40px;

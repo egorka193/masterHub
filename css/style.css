@@ -28,13 +28,13 @@ body {
 }
 
 .background {
-  background: url(/img/Backgroudn\ Gradient.svg);
+  background: url(img/Backgroudn\ Gradient.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background__bottom {
-  background: url(/img/Backgroudn\ Gradient.png);
+  background: url(img/Backgroudn\ Gradient.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 30px;
@@ -143,15 +143,19 @@ body {
   border: 1px solid #EDEDED;
   border-radius: 56px;
   display: flex;
-  padding: 12px 24px;
+  padding: 4px 8px;
 }
 .hero__inputs div {
   display: flex;
   align-items: center;
   gap: 8px;
 }
+.hero__inputs input {
+  padding: 12px 24px;
+}
 
 .hero__button {
+  cursor: pointer;
   background-color: #0066FF;
   color: white;
   padding: 16px 40px;
@@ -576,14 +580,14 @@ body {
 .porfolios__buttons button {
   border: none;
   cursor: pointer;
-  padding: 20px;
+  padding: 24px 28px;
   border-radius: 50%;
 }
-.porfolios__buttons :hover {
+.porfolios__buttons button:hover {
   transition: all 1s;
   background-color: #0066ff;
 }
-.porfolios__buttons :hover img {
+.porfolios__buttons button:hover img {
   color: white;
 }
 
@@ -598,6 +602,7 @@ body {
 }
 
 .swiper__slide {
+  position: relative;
   border-radius: 20px;
   width: 460px;
   height: 600px;
@@ -610,7 +615,7 @@ body {
   border-radius: 50%;
   border: none;
 }
-.swiper__slide button :hover {
+.swiper__slide button:hover {
   background-color: #0066ff;
 }
 .swiper__slide img {
@@ -626,6 +631,20 @@ body {
 }
 .swiper__slide p {
   color: #edeef0;
+}
+
+.swiper__gradient {
+  padding: 30px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  width: 460px;
+  justify-content: space-between;
+  background: #000000;
+  background: linear-gradient(0deg, #000000 10%, rgba(0, 0, 0, 0) 90%);
+  background: -moz-linear-gradient(0deg, #000000 10%, rgba(0, 0, 0, 0) 90%);
 }
 
 .say {
@@ -715,7 +734,7 @@ body {
   flex-wrap: wrap;
   gap: 15px;
 }
-.help__question div {
+.help__question div:nth-child(1) {
   display: flex;
   align-items: flex-start;
   justify-content: start;
@@ -742,6 +761,7 @@ body {
 
 .help__answer {
   display: none;
+  font-weight: 300;
 }
 
 .help__quest {
@@ -756,7 +776,7 @@ body {
   background-color: #e6f0ff;
   border: 1px solid #8ab9ff;
 }
-.answer__active div {
+.answer__active div:nth-child(1) {
   background-color: white;
 }
 .answer__active button {
@@ -822,16 +842,27 @@ body {
 }
 
 .join__input {
+  position: relative;
+  background-color: #f2f2f3;
+  box-shadow: 10px 10px 74px -14px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 10px 10px 74px -14px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 10px 10px 74px -14px rgba(0, 0, 0, 0.25);
+}
+.join__input input {
+  background-color: #ffffff;
+  border: none;
   border: 1px solid #edeef0;
   display: flex;
-  padding: 12px 40px;
+  padding: 16px 50px;
   gap: 8px;
-  color: #EDEDED;
+  background-color: #ffffff;
   border-radius: 56px;
   width: 384px;
 }
-.join__input input {
-  border: none;
+.join__input img {
+  position: absolute;
+  top: 13px;
+  left: 14px;
 }
 
 .footer__logo {
@@ -877,13 +908,20 @@ body {
   list-style: none;
   font-size: 18px;
 }
+.footer__firstlist a {
+  color: #1e242c;
+  text-decoration: none;
+}
 
 .footer__list {
   margin-bottom: 13px;
   font-size: 18px;
   list-style: none;
-  color: #6c7787;
   font-weight: 300;
+}
+.footer__list a {
+  color: #6c7787;
+  text-decoration: none;
 }
 
 .coptright__wrapper {

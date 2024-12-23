@@ -37,11 +37,18 @@
     margin-bottom: 13px;
     list-style: none;
     font-size: 18px;
+    a{
+        color: $color-neutral-900;
+        text-decoration: none;
+    }
 }
 .footer__list{
     margin-bottom: 13px;
     font-size: 18px;
     list-style: none;
-    color: $color-neutral-600;
     font-weight: 300;
+    a{
+        color: $color-neutral-600;
+        text-decoration: none;
+    }
 }

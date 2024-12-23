@@ -18,17 +18,18 @@
     button{
         border: none;
         cursor: pointer;
-        padding: 20px;
+        padding: 24px 28px;
         border-radius: 50%;
+        &:hover{
+            transition: all 1s;
+            background-color: $color-primary-500;
+            img{
+                color: white;
+            }
+        }
         
     }
-    :hover{
-        transition: all 1s;
-        background-color: $color-primary-500;
-        img{
-            color: white;
-        }
-    }
+    
     // :nth-child(2){
     //     rotate: 180deg;
     // }
@@ -45,6 +46,7 @@
 
 
 .swiper__slide{
+    position: relative;
     border-radius: 20px;
     width: 460px;
     height: 600px;
@@ -55,7 +57,7 @@
     button{
         border-radius: 50%;
         border: none;
-        :hover{
+        &:hover{
             background-color: $color-primary-500;
         }
     }
@@ -73,4 +75,19 @@
     p{
         color: $color-neutral-50;
     }
+}
+
+.swiper__gradient{
+    padding: 30px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    width: 460px;
+    justify-content: space-between;
+    background: #000000;
+    background: linear-gradient(0deg,#000000 10%, rgba(0,0,0,0) 90%);
+    background: -webkit-linear-gradient(0deg,#000000 10%, rgba(0,0,0,0) 90%);
+    background: -moz-linear-gradient(0deg,#000000 10%, rgba(0,0,0,0) 90%);
 }
