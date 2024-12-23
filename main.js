@@ -20,8 +20,8 @@ const swiper = new Swiper('.hero__swiper .swiper', {
   const cards = document.querySelectorAll('.discover__cards')
   console.log(cards);
   
-  professions.forEach(item => item.addEventListener('click', function(e){
-    // debugger
+
+  buttons.forEach(item => item.addEventListener('click', function(e){
     buttons.forEach((element) =>{
         element.classList.remove('list__active')
     })
@@ -29,16 +29,20 @@ const swiper = new Swiper('.hero__swiper .swiper', {
     cards.forEach((item) =>{
         item.classList.add('hidden')
     })
-
+    if(e.target.classList.contains('discover__list')){
+        e.target.classList.add('list__active')
+        const data = e.target.getAttribute('data')
+        console.log(data);
+        document.querySelector(`.discover__content-${data}`).classList.remove('hidden')
+    }
     if(e.target.parentNode.classList.contains('discover__list')){
         e.target.parentNode.classList.add('list__active')
+        const data = e.target.parentNode.getAttribute('data')
+        console.log(data);
+        document.querySelector(`.discover__content-${data}`).classList.remove('hidden')
     }
-    const data = e.target.parentNode.getAttribute('data')
-    console.log(data);
-    
-    document.querySelector(`.discover__content-${data}`).classList.remove('hidden')
-  }))
-  
+   
+  }));
 
 
 // const sliderButtons = document.querySelector('.porfolios__buttons')
