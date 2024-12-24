@@ -601,7 +601,7 @@ body {
   width: 461px;
 }
 
-.swiper__slide {
+.portfolio__slide {
   position: relative;
   border-radius: 20px;
   width: 460px;
@@ -611,25 +611,29 @@ body {
   align-items: end;
   padding: 32px;
 }
-.swiper__slide button {
+.portfolio__slide button {
+  background-color: white;
+  padding: 15px;
   border-radius: 50%;
   border: none;
 }
-.swiper__slide button:hover {
+.portfolio__slide button:hover {
   background-color: #0066ff;
 }
-.swiper__slide img {
-  padding: 15px;
+.portfolio__slide button:hover img {
+  background-color: #0066ff;
+}
+.portfolio__slide img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   background-color: white;
 }
-.swiper__slide h4 {
+.portfolio__slide h4 {
   display: flex;
   color: white;
 }
-.swiper__slide p {
+.portfolio__slide p {
   color: #edeef0;
 }
 
