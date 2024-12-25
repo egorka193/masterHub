@@ -15,14 +15,17 @@ const buttons = document.querySelectorAll('.discover__list')
 const cards = document.querySelectorAll('.discover__cards')
 
 
+
 buttons.forEach(item => item.addEventListener('click', function(e){
-    buttons.forEach((element) =>{
-        element.classList.remove('list__active')
-    })
+    const active = document.querySelector('.list__active')
+    active.classList.remove('list__active')
 
     cards.forEach((item) =>{
-        item.classList.add('hidden')
+        if(!item.classList.contains('hidden')){
+            item.classList.add('hidden')
+        }
     })
+
     if(e.target.classList.contains('discover__list')){
         e.target.classList.add('list__active')
         const data = e.target.getAttribute('data')

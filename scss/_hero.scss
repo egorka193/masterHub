@@ -2,13 +2,11 @@
 .hero__text-top {
     background-color: white;
     color: $color-primary-900;
-    max-width: 320px;
-    margin: 0 auto;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 24px;
-    padding: 8px 5px;
+    padding: 10px 24px;
     gap: 5px;
 }
 .hero__title {
@@ -80,20 +78,22 @@
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 80px;
-}
-.swiper-wrapper{
-    transition-timing-function: linear !important;
-}
 
-.swiper {
-    width: auto;
-}
+    .swiper-wrapper{
+        transition-timing-function: linear !important;
+    }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .swiper {
+        width: auto;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

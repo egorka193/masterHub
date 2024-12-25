@@ -93,13 +93,11 @@ a {
 .hero__text-top {
   background-color: white;
   color: #002b6b;
-  max-width: 320px;
-  margin: 0 auto;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 24px;
-  padding: 8px 5px;
+  padding: 10px 24px;
   gap: 5px;
 }
 
@@ -174,16 +172,13 @@ a {
   margin-top: 50px;
   margin-bottom: 80px;
 }
-
-.swiper-wrapper {
+.hero__swiper .swiper-wrapper {
   transition-timing-function: linear !important;
 }
-
-.swiper {
+.hero__swiper .swiper {
   width: auto;
 }
-
-.swiper-slide {
+.hero__swiper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
