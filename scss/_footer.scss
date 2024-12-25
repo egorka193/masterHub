@@ -39,7 +39,6 @@
     font-size: 18px;
     a{
         color: $color-neutral-900;
-        text-decoration: none;
     }
 }
 .footer__list{
@@ -49,6 +48,18 @@
     font-weight: 300;
     a{
         color: $color-neutral-600;
-        text-decoration: none;
     }
+}
+
+.coptright__wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    p{
+        color: $color-primary-900;
+    }
+}
+.social {
+    display: flex;
+    gap: 20px;
 }

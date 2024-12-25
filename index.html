@@ -9,27 +9,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <div class="background">
+   <div class="background__top">
         <div class="header">
             <div class="container">
                 <div class="header__wrapper">
-                    <div class="logo">MH. Masters Hub</div>
+                    <div class="header__logo">MH. Masters Hub</div>
                     <div class="header__links">
                         <a href="#">Create Resume</a>
                         <a href="#">Skillset</a>
                         <a href="#">Partnered Job Board</a>
                         <a href="#">Contact Us</a>
                     </div>
-                    <div href="" class="header__register">
-                        <div>
-                            <a href="">
-                                Register Now
-                            </a>
-                        </div>
+                    <a href="" class="header__register">
+                        <span>
+                            Register Now
+                        </span>
                         <div>
                             <img src="/img/arrow-right-up-line.png" class="header__arrow"></img>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 </div>
         </div>
@@ -44,11 +42,12 @@
                 </div>
                 <div class="hero__search">
                     <div class="hero__inputs">
-                        <div class="hero__desinger">
+                        <div class="hero__input">
                             <img src="/img/search.svg" alt="">
-                            <input class="hero__search-input" type="text" placeholder=" e.g. UX Designer        |">
+                            <input class="hero__search-input" type="text" placeholder=" e.g. UX Designer ">
                         </div>
-                       <div class="hero__liverpool">
+                        <div>|</div>
+                       <div class="hero__input">
                             <img src="/img/markonmap.svg" alt="">
                             <input class="hero__search-input" type="text" placeholder="e.g. Liverpool, USA">
                        </div>
@@ -70,7 +69,7 @@
                       <div class="swiper-slide">
                         <img src="/img/human3.svg" alt="">
                       </div>
-                      <div class="swiper-slide">
+                        <div class="swiper-slide">
                           <img src="/img/girl.svg" alt="">
                         </div>
                         <div class="swiper-slide">
@@ -927,12 +926,14 @@
                     </div>
                 </div>
             </div>
-            <div class="discover__view">
-                View All
-                <a href="">
+            <a href="" class="discover__view">
+                <span>
+                    View All
+                </span>
+                <div>
                     <img  src="/img/viewall.svg" class="discover__arrow"></img>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
     </div>    
     <div class="choose">
@@ -943,8 +944,8 @@
                 <img class="choose__circle-first" src="/img/Circle_big.png" alt="">
                 <img class="choose__circle-second" src="/img/Circle_midle.png" alt="">
                 <img class="choose__circle-third" src="/img/Circle_smal.png" alt="">
-                <img class="choose__arrow-top" src="/img/Arrow.svg" alt="">
-                <img class="choose__arrow-bottom" src="/img/Arrow (1).svg" alt="">
+                <img class="choose__arrow-top" src="/img/Arrow_top.svg" alt="">
+                <img class="choose__arrow-bottom" src="/img/Arrow_bottom.svg" alt="">
                 <div class="card__wrapper">
                     <div class="choose__card">
                         <img src="/img/IconPc.svg" alt="">
@@ -964,13 +965,13 @@
                <img class="choose__video" src="/img/Video.svg" alt="">
                <div class="card__wrapper card__right">
                    <div class="choose__card-miny">
-                       <img src="/img/Frame.svg" alt="">
+                       <img src="/img/networking.svg" alt="">
                        <div class="choose__card-content">
                            <h4>Networking Opportunities</h4>
                         </div>
                     </div>
                     <div class="choose__card">
-                        <img src="/img/Add documents 1.svg" alt="">
+                        <img src="/img/choose_documents.svg" alt="">
                         <h4>Resume Builder</h4>
                         <p>Create a professional resume using our built-in resume builder.</p>
                         <button>Build Resume</button>
@@ -985,7 +986,7 @@
                 <div class="happy__gradient"></div>
                 <h2 class="happy__title">We are happy to work with incredible clients</h2>
                 <p class="happy__text">Fortune 500 companies and renowned global brands place their trust in our products, solutions, and bespoke software development services.</p>
-                <img class="happy__img" src="/img/Frame 1000004850.png" alt="">
+                <img class="happy__img" src="/img/happy_image.png" alt="">
             </div>
         </div>
     </div>
@@ -1040,9 +1041,9 @@
                         <img src="/img/works-human.svg" alt="">
                         <div class="works__images-wrapper">
                             <div class="works__images">
-                                <img class="works__image-first" src="/img/Avatar.svg" alt="">
-                                <img class="works__image-second" src="/img/Avatar (1).svg" alt="">
-                                <img class="works__image-third" src="/img/Avatar (2).svg" alt="">
+                                <img class="works__image-first" src="/img/works_face_first.svg" alt="">
+                                <img class="works__image-second" src="/img/woks_face_senond.svg" alt="">
+                                <img class="works__image-third" src="/img/woks_face_third.svg" alt="">
                             </div>
                             <div class="works__content">
                                 <h4>10K +</h4>
@@ -1104,13 +1105,15 @@
                     </div>
                   </div>
                   <div class="swiper-slide portfolio__slide" style="background-image: url(/img/card-4.jpg);">
-                    <div>
-                        <h4>Floyd Miles</h4>
-                        <p>Graphics Designer</p>
+                    <div class="swiper__gradient">
+                        <div>
+                            <h4>Floyd Miles</h4>
+                            <p>Graphics Designer</p>
+                        </div>
+                        <button>
+                            <img src="/img/play.png" alt="">
+                        </button>
                     </div>
-                    <button>
-                        <img src="/img/play.png" alt="">
-                    </button>
                   </div>
                 </div>
               </div>
@@ -1196,7 +1199,7 @@
                         <div class="help__quest">How do I create an account on the job board?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="1" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                     <div class="help__question">
@@ -1204,7 +1207,7 @@
                         <div class="help__quest">How do I apply for a job through the platform?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="2" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                     <div class="help__question">
@@ -1212,7 +1215,7 @@
                         <div class="help__quest">How can I track the status of my job applications?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="3" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                     <div class="help__question">
@@ -1220,7 +1223,7 @@
                         <div class="help__quest">How do I create an account on the job board?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="4" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                     <div class="help__question">
@@ -1228,7 +1231,7 @@
                         <div class="help__quest">Is there a cost to use the job board, and what features are free?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="5" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                 </div>
@@ -1326,21 +1329,30 @@
                     </div>
                 </div>
             </div>
-        </footer>
-        <div class="copyright">
-            <div class="container">
-                <div class="coptright__wrapper">
-                    <p>©2024 All rights reserved</p>
-                <div class="social">
-                    <img src="/img/instasamka.svg" alt="">
-                    <img src="/img/telega.svg" alt="">
-                    <img src="/img/tictak.svg" alt="">
-                    <img src="/img/youtube.svg" alt="">
-                </div>
+            <div class="footer__copyright">
+                <div class="container">
+                    <div class="coptright__wrapper">
+                        <p>©2024 All rights reserved</p>
+                    <div class="social">
+                        <a href="">
+                            <img src="/img/instasamka.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/telega.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/tictak.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/youtube.svg" alt="">
+                        </a>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        </footer>
+       
     
                
    

@@ -27,14 +27,18 @@ body {
   color: #0066ff;
 }
 
-.background {
-  background: url(/img/Backgroudn\ Gradient.svg);
+a {
+  text-decoration: none;
+}
+
+.background__top {
+  background: url(/img/Backgroudn_Gradient_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background__bottom {
-  background: url(/img/Backgroudn\ Gradient.png);
+  background: url(/img/Backgroudn_Gradient_footer.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 30px;
@@ -52,7 +56,7 @@ body {
   justify-content: space-around;
 }
 
-.logo {
+.header__logo {
   color: white;
   font-size: 23px;
 }
@@ -75,10 +79,6 @@ body {
   border-radius: 100px;
   padding: 14px 30px;
   gap: 20px;
-}
-.header__register a {
-  text-decoration: none;
-  color: white;
 }
 
 .header__arrow {
@@ -143,9 +143,13 @@ body {
   border: 1px solid #EDEDED;
   border-radius: 56px;
   display: flex;
+  align-items: center;
   padding: 4px 8px;
 }
-.hero__inputs div {
+.hero__inputs:nth-child(2) {
+  margin: 0 10px;
+}
+.hero__inputs .hero__input {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -177,15 +181,6 @@ body {
 
 .swiper {
   width: auto;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 287px;
-  height: 338px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 10px;
 }
 
 .swiper-slide {
@@ -302,6 +297,7 @@ body {
   gap: 16px;
   max-width: 150px;
   margin: 0 auto;
+  color: #0066ff;
 }
 .discover__view img {
   position: absolute;
@@ -623,7 +619,7 @@ body {
 .portfolio__slide button:hover img {
   background-color: #0066ff;
 }
-.portfolio__slide img {
+.portfolio__slide button img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -809,7 +805,7 @@ body {
   padding-top: 88px;
   padding-bottom: 55px;
   border-radius: 24px;
-  background-image: url(/img/Backgroudn\ Gradient.svg);
+  background-image: url(/img/Backgroudn_Gradient_header.svg);
   background-repeat: no-repeat;
   background-position-y: -260px;
   box-shadow: -1px 33px 135px -69px rgba(55, 31, 199, 0.34);
@@ -847,10 +843,7 @@ body {
 
 .join__input {
   position: relative;
-  background-color: #f2f2f3;
-  box-shadow: 10px 10px 74px -14px rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 10px 10px 74px -14px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 10px 10px 74px -14px rgba(0, 0, 0, 0.25);
+  border-radius: 56px;
 }
 .join__input input {
   background-color: #ffffff;
@@ -862,6 +855,9 @@ body {
   background-color: #ffffff;
   border-radius: 56px;
   width: 384px;
+  box-shadow: 10px 10px 74px -14px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 10px 10px 74px -14px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 10px 10px 74px -14px rgba(0, 0, 0, 0.25);
 }
 .join__input img {
   position: absolute;
@@ -914,7 +910,6 @@ body {
 }
 .footer__firstlist a {
   color: #1e242c;
-  text-decoration: none;
 }
 
 .footer__list {
@@ -925,10 +920,10 @@ body {
 }
 .footer__list a {
   color: #6c7787;
-  text-decoration: none;
 }
 
 .coptright__wrapper {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }

@@ -10,7 +10,7 @@
     padding-top: 88px;
     padding-bottom: 55px;
     border-radius: 24px;
-    background-image: url(/img/Backgroudn\ Gradient.svg);
+    background-image: url(/img/Backgroudn_Gradient_header.svg);
     background-repeat: no-repeat;
     background-position-y: -260px;
     box-shadow: -1px 33px 135px -69px rgba(55,31,199,0.34);
@@ -44,10 +44,7 @@
 }
 .join__input{
     position: relative;
-    background-color: #f2f2f3;
-    box-shadow: 10px 10px 74px -14px rgba(0,0,0,0.25);
-    -webkit-box-shadow: 10px 10px 74px -14px rgba(0,0,0,0.25);
-    -moz-box-shadow: 10px 10px 74px -14px rgba(0,0,0,0.25);
+    border-radius: 56px;
     input{
         background-color:#ffffff;
         border: none;
@@ -58,6 +55,9 @@
         background-color:#ffffff;
         border-radius: 56px;
         width: 384px;
+        box-shadow: 10px 10px 74px -14px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 10px 10px 74px -14px rgba(0,0,0,0.25);
+        -moz-box-shadow: 10px 10px 74px -14px rgba(0,0,0,0.25);
     }
     img{
         position: absolute;

@@ -48,8 +48,12 @@
     border: 1px solid #EDEDED;
     border-radius: 56px;
     display: flex;
+    align-items: center;
     padding: 4px 8px;
-    div{
+    &:nth-child(2){
+        margin: 0 10px;
+    }
+    .hero__input{
         display: flex;
         align-items: center;
         gap: 8px;
@@ -57,6 +61,7 @@
     input{
         padding: 12px 24px;
     }
+   
 }
 
 .hero__button{
@@ -82,14 +87,6 @@
 
 .swiper {
     width: auto;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 287px;
-    height: 338px;
-    object-fit: cover;
-    border-radius: 10px;
 }
 
 .swiper-slide {
