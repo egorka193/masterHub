@@ -144,9 +144,6 @@ a {
   align-items: center;
   padding: 4px 8px;
 }
-.hero__inputs:nth-child(2) {
-  margin: 0 10px;
-}
 .hero__inputs .hero__input {
   display: flex;
   align-items: center;
@@ -154,6 +151,10 @@ a {
 }
 .hero__inputs input {
   padding: 12px 24px;
+}
+.hero__inputs .hero__separator {
+  margin: 0 10px;
+  color: #EDEDED;
 }
 
 .hero__button {

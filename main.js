@@ -15,27 +15,21 @@ const buttons = document.querySelectorAll('.discover__list')
 const cards = document.querySelectorAll('.discover__cards')
 
 
-
 buttons.forEach(item => item.addEventListener('click', function(e){
     const active = document.querySelector('.list__active')
     active.classList.remove('list__active')
 
-    cards.forEach((item) =>{
-        if(!item.classList.contains('hidden')){
-            item.classList.add('hidden')
-        }
-    })
+    const notHiddenCard = document.querySelector('.discover__cards:not(.hidden)');
+    notHiddenCard.classList.add('hidden')
 
     if(e.target.classList.contains('discover__list')){
         e.target.classList.add('list__active')
         const data = e.target.getAttribute('data')
-        console.log(data);
         document.querySelector(`.discover__content-${data}`).classList.remove('hidden')
     }
     if(e.target.parentNode.classList.contains('discover__list')){
         e.target.parentNode.classList.add('list__active')
         const data = e.target.parentNode.getAttribute('data')
-        console.log(data);
         document.querySelector(`.discover__content-${data}`).classList.remove('hidden')
     }
 
@@ -81,7 +75,6 @@ const answerNumber = document.querySelectorAll('.help__answer')
 
 function handleClick(event){
     const question = event.target.offsetParent.offsetParent
-    console.log(question);
     question.classList.toggle('answer__active')
 
 }
