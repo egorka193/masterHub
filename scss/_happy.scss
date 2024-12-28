@@ -18,12 +18,19 @@
 }
 
 .happy__wrapper{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(3deg,#fafafa 0%, #fafafa 80%);
-    background: -webkit-linear-gradient(3deg,#fafafa 0%, #fafafa 80%);
-    background: -moz-linear-gradient(3deg,#fafafa 0%, #fafafa 80%);
+}
 
+.happy__gradient{
+    position: absolute;
+    bottom: 20px;
+    height: 167px;
+    width: 1440px;
+    background: linear-gradient(0deg,rgba(248,248,248,0.75) 40%, rgba(248,248,248,0) 60%);
+    background: -webkit-linear-gradient(0deg,rgba(248,248,248,0.75) 40%, rgba(248,248,248,0) 60%);
+    background: -moz-linear-gradient(0deg,rgba(248,248,248,0.75) 40%, rgba(248,248,248,0) 60%);
 }

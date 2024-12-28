@@ -2,13 +2,11 @@
 .hero__text-top {
     background-color: white;
     color: $color-primary-900;
-    max-width: 320px;
-    margin: 0 auto;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 24px;
-    padding: 8px 5px;
+    padding: 10px 24px;
     gap: 5px;
 }
 .hero__title {
@@ -16,6 +14,7 @@
     color: $color-primary-900;
     margin-top: 16px;
     margin-bottom: 16px;
+    font-weight: 400;
 }
 .hero__text-bottom {
     color: $color-neutral-600;
@@ -47,19 +46,30 @@
     border: 1px solid #EDEDED;
     border-radius: 56px;
     display: flex;
-    padding: 12px 24px;
-    
-    div{
+    align-items: center;
+    padding: 4px 8px;
+    .hero__input{
         display: flex;
         align-items: center;
         gap: 8px;
     }
+    input{
+        padding: 12px 24px;
+    }
+    .hero__separator{
+        margin: 0 10px;
+        color: #EDEDED;
+    }
+   
 }
 
+
+
 .hero__button{
+    cursor: pointer;
     background-color: #0066FF;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 40px;
     border-radius: 100px;
     border: none;
 }
@@ -71,28 +81,22 @@
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 80px;
-}
-.swiper-wrapper{
-    transition-timing-function: linear !important;
-}
 
-.swiper {
-    width: auto;
-}
+    .swiper-wrapper{
+        transition-timing-function: linear !important;
+    }
 
-.swiper-slide img {
-    display: block;
-    width: 287px;
-    height: 338px;
-    object-fit: cover;
-    border-radius: 10px;
-}
+    .swiper {
+        width: auto;
+    }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

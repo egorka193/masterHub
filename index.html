@@ -6,32 +6,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <div class="background">
+   <div class="background__top">
         <div class="header">
             <div class="container">
                 <div class="header__wrapper">
-                    <div class="logo">MH. Masters Hub</div>
+                    <div class="header__logo">MH. Masters Hub</div>
                     <div class="header__links">
                         <a href="#">Create Resume</a>
                         <a href="#">Skillset</a>
                         <a href="#">Partnered Job Board</a>
                         <a href="#">Contact Us</a>
                     </div>
-                    <div class="header__register">
+                    <a href="" class="header__register">
+                        <span>
+                            Register Now
+                        </span>
                         <div>
-                            <a href="">
-                                Register Now
-                            </a>
+                            <img src="/img/arrow-right-up-line.png" class="header__arrow">
                         </div>
-                        
-                        <div>
-                            <img src="/img/arrow-right-up-line.png" class="header__arrow"></img>
-                        </div>
-                       
-                    </div>
+                    </a>
                 </div>
                 </div>
         </div>
@@ -46,11 +42,12 @@
                 </div>
                 <div class="hero__search">
                     <div class="hero__inputs">
-                        <div class="hero__desinger">
+                        <div class="hero__input">
                             <img src="/img/search.svg" alt="">
-                            <input class="hero__search-input" type="text" placeholder=" e.g. UX Designer      |">
+                            <input class="hero__search-input" type="text" placeholder=" e.g. UX Designer ">
                         </div>
-                       <div class="hero__liverpool">
+                        <div class="hero__separator">|</div>
+                       <div class="hero__input">
                             <img src="/img/markonmap.svg" alt="">
                             <input class="hero__search-input" type="text" placeholder="e.g. Liverpool, USA">
                        </div>
@@ -61,32 +58,32 @@
             <div class="hero__swiper">
                 <div class="swiper">
                     <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                      <!-- Slides -->
-                      <div class="swiper-slide">
-                        <img src="/img/human1.svg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="/img/human2.svg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="/img/human3.svg" alt="">
-                      </div>
-                      <div class="swiper-slide">
+                    <div class="swiper-wrapper hero__swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="/img/human1.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/human2.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/human3.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
                           <img src="/img/girl.svg" alt="">
                         </div>
                         <div class="swiper-slide">
                             <img src="/img/human1.svg" alt="">
                         </div>
-                      <div class="swiper-slide">
-                        <img src="/img/human2.svg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="/img/human3.svg" alt="">
-                      </div>
-                      <div class="swiper-slide">
-                        <img src="/img/girl.svg" alt="">
-                      </div>
+                        <div class="swiper-slide">
+                            <img src="/img/human2.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/human3.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/girl.svg" alt="">
+                        </div>
                     </div>
                   </div>
             </div>
@@ -129,7 +126,6 @@
             <div class="discover__cards discover__content-1 hidden">
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/nigga.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt=""> 
                         4.8 (6)
@@ -188,7 +184,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/frances.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -203,7 +198,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/jason.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -232,7 +226,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/jaime.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -249,7 +242,6 @@
             <div class="discover__cards discover__content-2">
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/zrand.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         img 4.8 (6)
                     </div>
@@ -262,7 +254,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/doroty.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt=""> 
                         4.8 (6)
@@ -292,7 +283,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/nigga.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt=""> 
                         4.8 (6)
@@ -307,7 +297,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/frances.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -322,7 +311,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/jason.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -336,7 +324,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/katrin.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -351,7 +338,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/jaime.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -381,7 +367,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/timoty.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt=""> 
                         4.8 (6)
@@ -425,7 +410,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/frances.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -499,7 +483,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/doroty.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt=""> 
                         4.8 (6)
@@ -514,7 +497,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/timoty.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                          4.8 (6)
@@ -544,7 +526,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/frances.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -559,7 +540,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/jason.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -573,7 +553,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/katrin.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -604,66 +583,7 @@
             </div>
             <div class="discover__cards discover__content-5 hidden">
                 <div class="discover__card">
-                    <img class="discover__card-avatar" src="/img/zrand.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
-                    <div class="discover__card-raiting">
-                        img 4.8 (6)
-                    </div>
-                    <h3>Zrand Hobs</h3>
-                    <p>Developer</p>
-                    <div class="discover__card-profession">
-                        <div>Gimp</div>
-                        <div>Wordpress</div>
-                    </div>
-                </div>
-                <div class="discover__card">
-                    <img class="discover__card-avatar" src="/img/doroty.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
-                    <div class="discover__card-raiting">
-                        <img src="/img/yellowstar.svg" alt=""> 
-                        4.8 (6)
-                    </div>
-                    <h3>Dorothy Wood</h3>
-                    <p>Teacher</p>
-                    <div class="discover__card-profession">
-                        <div>Elementor</div>
-                        <div>Wix</div>
-                        <div>Illustrator</div>
-                    </div>
-                </div>
-                <div class="discover__card">
-                    <img class="discover__card-avatar" src="/img/timoty.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
-                    <div class="discover__card-raiting">
-                        <img src="/img/yellowstar.svg" alt="">
-                         4.8 (6)
-                    </div>
-                    <h3>Timothy Baker</h3>
-                    <p>Teacher</p>
-                    <div class="discover__card-profession">
-                        <div>Figma</div>
-                        <div>Elementor</div>
-                        <div>Wordpress</div>
-                    </div>
-                </div>
-                <div class="discover__card">
-                    <img class="discover__card-avatar" src="/img/nigga.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
-                    <div class="discover__card-raiting">
-                        <img src="/img/yellowstar.svg" alt=""> 
-                        4.8 (6)
-                    </div>
-                    <h3>Shane Pratt</h3>
-                    <p>Developer</p>
-                    <div class="discover__card-profession">
-                        <div>Figma</div>
-                        <div>Wordpress</div>
-                        <div>Gimp</div>
-                    </div>
-                </div>
-                <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/frances.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -720,11 +640,64 @@
                         <div>Webflow</div>
                     </div>
                 </div>
+                <div class="discover__card">
+                    <img class="discover__card-avatar" src="/img/zrand.svg" alt="">
+                    <div class="discover__card-raiting">
+                        img 4.8 (6)
+                    </div>
+                    <h3>Zrand Hobs</h3>
+                    <p>Developer</p>
+                    <div class="discover__card-profession">
+                        <div>Gimp</div>
+                        <div>Wordpress</div>
+                    </div>
+                </div>
+                <div class="discover__card">
+                    <img class="discover__card-avatar" src="/img/doroty.svg" alt="">
+                    <div class="discover__card-raiting">
+                        <img src="/img/yellowstar.svg" alt=""> 
+                        4.8 (6)
+                    </div>
+                    <h3>Dorothy Wood</h3>
+                    <p>Teacher</p>
+                    <div class="discover__card-profession">
+                        <div>Elementor</div>
+                        <div>Wix</div>
+                        <div>Illustrator</div>
+                    </div>
+                </div>
+                <div class="discover__card">
+                    <img class="discover__card-avatar" src="/img/timoty.svg" alt="">
+                    <div class="discover__card-raiting">
+                        <img src="/img/yellowstar.svg" alt="">
+                         4.8 (6)
+                    </div>
+                    <h3>Timothy Baker</h3>
+                    <p>Teacher</p>
+                    <div class="discover__card-profession">
+                        <div>Figma</div>
+                        <div>Elementor</div>
+                        <div>Wordpress</div>
+                    </div>
+                </div>
+                <div class="discover__card">
+                    <img class="discover__card-avatar" src="/img/nigga.svg" alt="">
+                    <div class="discover__card-raiting">
+                        <img src="/img/yellowstar.svg" alt=""> 
+                        4.8 (6)
+                    </div>
+                    <h3>Shane Pratt</h3>
+                    <p>Developer</p>
+                    <div class="discover__card-profession">
+                        <div>Figma</div>
+                        <div>Wordpress</div>
+                        <div>Gimp</div>
+                    </div>
+                </div>
             </div>
             <div class="discover__cards discover__content-6 hidden">
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/zrand.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         img 4.8 (6)
                     </div>
@@ -752,7 +725,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/timoty.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                          4.8 (6)
@@ -767,7 +739,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/nigga.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt=""> 
                         4.8 (6)
@@ -797,7 +768,6 @@
                 </div>
                 <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/jason.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         <img src="/img/yellowstar.svg" alt="">
                         4.8 (6)
@@ -842,8 +812,35 @@
             </div>
             <div class="discover__cards discover__content-7 hidden">
                 <div class="discover__card">
+                    <img class="discover__card-avatar" src="/img/katrin.svg" alt="">
+                    <div class="discover__card-raiting">
+                        <img src="/img/yellowstar.svg" alt="">
+                        4.8 (6)
+                    </div>
+                    <h3>Kathryn Sanchez</h3>
+                    <p>Teacher</p>
+                    <div class="discover__card-profession">
+                        <div>Framer</div>
+                        <div>Webflow</div>
+                        <div>Wix</div>
+                    </div>
+                </div>
+                <div class="discover__card">
+                    <img class="discover__card-avatar" src="/img/jaime.svg" alt="">
+                    <div class="discover__card-raiting">
+                        <img src="/img/yellowstar.svg" alt="">
+                        4.8 (6)
+                    </div>
+                    <h3>Jaime Strickland</h3>
+                    <p>Web Designer</p>
+                    <div class="discover__card-profession">
+                        <div>Gimp</div>
+                        <div>Figma</div>
+                        <div>Webflow</div>
+                    </div>
+                </div>
+                <div class="discover__card">
                     <img class="discover__card-avatar" src="/img/zrand.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
                     <div class="discover__card-raiting">
                         img 4.8 (6)
                     </div>
@@ -928,43 +925,15 @@
                         <div>Wordpress</div>
                     </div>
                 </div>
-                <div class="discover__card">
-                    <img class="discover__card-avatar" src="/img/katrin.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
-                    <div class="discover__card-raiting">
-                        <img src="/img/yellowstar.svg" alt="">
-                        4.8 (6)
-                    </div>
-                    <h3>Kathryn Sanchez</h3>
-                    <p>Teacher</p>
-                    <div class="discover__card-profession">
-                        <div>Framer</div>
-                        <div>Webflow</div>
-                        <div>Wix</div>
-                    </div>
-                </div>
-                <div class="discover__card">
-                    <img class="discover__card-avatar" src="/img/jaime.svg" alt="">
-                    <img class="online" src="/img/online.svg" alt="">
-                    <div class="discover__card-raiting">
-                        <img src="/img/yellowstar.svg" alt="">
-                        4.8 (6)
-                    </div>
-                    <h3>Jaime Strickland</h3>
-                    <p>Web Designer</p>
-                    <div class="discover__card-profession">
-                        <div>Gimp</div>
-                        <div>Figma</div>
-                        <div>Webflow</div>
-                    </div>
-                </div>
             </div>
-            <div class="discover__view">
-                View All
-                <a href="">
-                    <img  src="/img/viewall.svg" class="header__arrow"></img>
-                </a>
-            </div>
+            <a href="" class="discover__view">
+                <span>
+                    View All
+                </span>
+                <div>
+                    <img  src="/img/viewall.svg" class="discover__arrow"></img>
+                </div>
+            </a>
         </div>
     </div>    
     <div class="choose">
@@ -972,9 +941,14 @@
             <h1 class="choose__title">Why Choose Masters in Me?</h1>
             <p class="choose__text">Unlock your true potential and discover a world of opportunities that align with your skills, interests, and aspirations</p>
             <div class="choose__content">
+                <img class="choose__circle-first" src="/img/Circle_big.png" alt="">
+                <img class="choose__circle-second" src="/img/Circle_midle.png" alt="">
+                <img class="choose__circle-third" src="/img/Circle_smal.png" alt="">
+                <img class="choose__arrow-top" src="/img/Arrow_top.svg" alt="">
+                <img class="choose__arrow-bottom" src="/img/Arrow_bottom.svg" alt="">
                 <div class="card__wrapper">
                     <div class="choose__card">
-                        <img src="/img/Iconly-Pc-1723800402620 1.svg" alt="">
+                        <img src="/img/IconPc.svg" alt="">
                         <h4>Showcase Work</h4>
                         <p>Showcase your project to stand
                             out among all</p>
@@ -988,16 +962,16 @@
                         </div>
                     </div>
                 </div>
-               <img src="/img/Video.svg" alt="">
+               <img class="choose__video" src="/img/Video.svg" alt="">
                <div class="card__wrapper card__right">
                    <div class="choose__card-miny">
-                       <img src="/img/Frame.svg" alt="">
+                       <img src="/img/networking.svg" alt="">
                        <div class="choose__card-content">
                            <h4>Networking Opportunities</h4>
                         </div>
                     </div>
                     <div class="choose__card">
-                        <img src="/img/Add documents 1.svg" alt="">
+                        <img src="/img/choose_documents.svg" alt="">
                         <h4>Resume Builder</h4>
                         <p>Create a professional resume using our built-in resume builder.</p>
                         <button>Build Resume</button>
@@ -1009,9 +983,10 @@
     <div class="happy">
         <div class="container">
             <div class="happy__wrapper">
+                <div class="happy__gradient"></div>
                 <h2 class="happy__title">We are happy to work with incredible clients</h2>
                 <p class="happy__text">Fortune 500 companies and renowned global brands place their trust in our products, solutions, and bespoke software development services.</p>
-                <img class="happy__img" src="/img/Frame 1000004850.png" alt="">
+                <img class="happy__img" src="/img/happy_image.png" alt="">
             </div>
         </div>
     </div>
@@ -1027,7 +1002,7 @@
                             <div class="works__number">01</div>
                             <div class="works__card">
                                 <div>
-                                    <img src="/img/solar_login-3-broken.svg" alt="">
+                                    <img src="/img/works_first_image.svg" alt="">
                                 </div>
                                 <div>
                                     <h4>Sign Up and create Account</h4>
@@ -1039,7 +1014,7 @@
                             <div class="works__number">02</div>
                             <div class="works__card">
                                 <div>
-                                    <img src="/img/solar_login-3-broken (1).svg" alt="">
+                                    <img src="/img/works_second_image.svg" alt="">
                                 </div>
                                 <div>
                                     <h4>Upload Your Portfolio</h4>
@@ -1051,7 +1026,7 @@
                             <div class="works__number">03</div>
                             <div class="works__card">
                                 <div>
-                                    <img src="/img/solar_login-3-broken (2).svg" alt="">
+                                    <img src="/img/works_third_image.svg" alt="">
                                 </div>
                                 <div>
                                     <h4>Get Discovered</h4>
@@ -1066,9 +1041,9 @@
                         <img src="/img/works-human.svg" alt="">
                         <div class="works__images-wrapper">
                             <div class="works__images">
-                                <img class="works__image-first" src="/img/Avatar.svg" alt="">
-                                <img class="works__image-second" src="/img/Avatar (1).svg" alt="">
-                                <img class="works__image-third" src="/img/Avatar (2).svg" alt="">
+                                <img class="works__image-first" src="/img/works_face_first.svg" alt="">
+                                <img class="works__image-second" src="/img/woks_face_senond.svg" alt="">
+                                <img class="works__image-third" src="/img/woks_face_third.svg" alt="">
                             </div>
                             <div class="works__content">
                                 <h4>10K +</h4>
@@ -1096,41 +1071,49 @@
             </div>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide swiper__slide" style="background-image: url(/img/card-1.jpg);">
-                    <div>
-                        <h4>Floyd Miles</h4>
-                        <p>Graphics Designer</p>
+                  <div class="swiper-slide portfolio__slide" style="background-image: url(/img/card-1.jpg);">
+                    <div class="swiper__gradient">
+                        <div>
+                            <h4>Floyd Miles</h4>
+                            <p>Graphics Designer</p>
+                        </div>
+                        <button>
+                            <img src="/img/play.png" alt="">
+                        </button>
                     </div>
-                    <button>
-                        <img src="/img/play.png" alt="">
-                    </button>
                   </div>
-                  <div class="swiper-slide swiper__slide" style="background-image: url(/img/card-2.jpg);">
-                    <div>
-                        <h4>Wade Warren</h4>
-                        <p>Software Developer</p>
+                  <div class="swiper-slide portfolio__slide" style="background-image: url(/img/card-2.jpg);">
+                    <div class="swiper__gradient">
+                        <div>
+                            <h4>Wade Warren</h4>
+                            <p>Software Developer</p>
+                        </div>
+                        <button>
+                            <img src="/img/play.png" alt="">
+                        </button>
                     </div>
-                    <button>
-                        <img src="/img/play.png" alt="">
-                    </button>
                   </div>
-                  <div class="swiper-slide swiper__slide" style="background-image: url(/img/card-3.png);">
-                    <div>
-                        <h4>Brooklyn Simmons</h4>
-                        <p>UIUX Designer</p>
+                  <div class="swiper-slide portfolio__slide" style="background-image: url(/img/card-3.png);">
+                    <div class="swiper__gradient">
+                        <div>
+                            <h4>Brooklyn Simmons</h4>
+                            <p>UIUX Designer</p>
+                        </div>
+                        <button>
+                            <img src="/img/play.png" alt="">
+                        </button>
                     </div>
-                    <button>
-                        <img src="/img/play.png" alt="">
-                    </button>
                   </div>
-                  <div class="swiper-slide swiper__slide" style="background-image: url(/img/card-4.jpg);">
-                    <div>
-                        <h4>Floyd Miles</h4>
-                        <p>Graphics Designer</p>
+                  <div class="swiper-slide portfolio__slide" style="background-image: url(/img/card-4.jpg);">
+                    <div class="swiper__gradient">
+                        <div>
+                            <h4>Floyd Miles</h4>
+                            <p>Graphics Designer</p>
+                        </div>
+                        <button>
+                            <img src="/img/play.png" alt="">
+                        </button>
                     </div>
-                    <button>
-                        <img src="/img/play.png" alt="">
-                    </button>
                   </div>
                 </div>
               </div>
@@ -1213,42 +1196,42 @@
                 <div class="help__questions">
                     <div class="help__question">
                         <div>01</div>
-                        <p class="help__quest">How do I create an account on the job board?</p>
+                        <div class="help__quest">How do I create an account on the job board?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="1" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                     <div class="help__question">
                         <div>02</div>
-                        <p class="help__quest">How do I apply for a job through the platform?</p>
+                        <div class="help__quest">How do I apply for a job through the platform?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="2" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                     <div class="help__question">
                         <div>03</div>
-                        <p class="help__quest">How can I track the status of my job applications?</p>
+                        <div class="help__quest">How can I track the status of my job applications?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="3" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                     <div class="help__question">
                         <div>04</div>
-                        <p class="help__quest">How do I create an account on the job board?</p>
+                        <div class="help__quest">How do I create an account on the job board?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="4" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                     <div class="help__question">
                         <div>05</div>
-                        <p class="help__quest">Is there a cost to use the job board, and what features are free?</p>
+                        <div class="help__quest">Is there a cost to use the job board, and what features are free?</div>
                         <p class="help__answer">Use the search bar on the homepage to enter keywords related to your skills, job title, or preferred location. You can also use the advanced search filters to narrow down results by industry, job type (full-time, part-time, freelance), and experience level.</p>
                         <button data="5" class="help__showanswer">
-                            <img src="/img/Star 1.svg" alt="">
+                            <img src="/img/star_help.svg" alt="">
                         </button>
                     </div>
                 </div>
@@ -1290,45 +1273,86 @@
                     </div>
                     <div class="footer__content-right">
                         <ul>
-                            <li class="footer__firstlist">Quick Links</li>
-                            <li class="footer__list">Pricing</li>
-                            <li class="footer__list">Jobs</li>
-                            <li class="footer__list">Employeer</li>
-                            <li class="footer__list">Сareers</li>
-                            <li class="footer__list">Contact Us</li>
+                            <li class="footer__firstlist">
+                                <a href="">Quick Links</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Pricing</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Jobs</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Employeer</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Сareers</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Contact Us</a>
+                            </li>
                         </ul>
                         <ul>
-                            <li class="footer__firstlist">Others</li>
-                            <li class="footer__list">How it works</li>
-                            <li class="footer__list">Terms and condition</li>
-                            <li class="footer__list">Privacy Policy</li>
-                            <li class="footer__list">About Us</li>
+                            <li class="footer__firstlist">
+                                <a href="">Others</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">How it works</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Terms and condition</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">About Us</a>
+                            </li>
                         </ul>
                         <ul>
-                            <li class="footer__firstlist">About us</li>
-                            <li class="footer__list">Company milestone</li>
-                            <li class="footer__list">Web mail</li>
-                            <li class="footer__list">Board of Directors</li>
-                            <li class="footer__list">Senior Management</li>
+                            <li class="footer__firstlist">
+                                <a href="">About us</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Company milestone</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Web mail</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Board of Directors</a>
+                            </li>
+                            <li class="footer__list">
+                                <a href="">Senior Management</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </footer>
-        <div class="copyright">
-            <div class="container">
-                <div class="coptright__wrapper">
-                    <p>©2024 All rights reserved</p>
-                <div class="social">
-                    <img src="/img/instasamka.svg" alt="">
-                    <img src="/img/telega.svg" alt="">
-                    <img src="/img/tictak.svg" alt="">
-                    <img src="/img/youtube.svg" alt="">
-                </div>
+            <div class="footer__copyright">
+                <div class="container">
+                    <div class="coptright__wrapper">
+                        <p>©2024 All rights reserved</p>
+                    <div class="social">
+                        <a href="">
+                            <img src="/img/instasamka.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/telega.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/tictak.svg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/img/youtube.svg" alt="">
+                        </a>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        </footer>
+       
     
                
    
